@@ -9,7 +9,7 @@ const Product = (props) => {
         <img src= {img} alt="" />
         <h2>{nome}</h2>
         <h6>{prezzo}</h6>
-        <div>{children}</div>
+        <>{children}</>
     </div>
   )
 }
